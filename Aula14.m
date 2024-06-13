@@ -18,3 +18,17 @@ rlocus(g)
 roots([1 -2 3 -6 2 -4])
 %Exemplo 9.1
 
+
+%Exercício 9.1
+
+g=tf(1,[1 7 0])
+rlocus(g)
+%k = 45.9
+%a)
+kv = limit(s*45.9/(s*(s+7)), s, 0)
+eramp = 1 / kv
+% eramp = 0,1525
+
+%b)
+
+
